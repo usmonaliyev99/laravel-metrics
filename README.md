@@ -17,6 +17,11 @@ You can install the package via Composer:
 composer require usmonaliyev/laravel-metrics
 ```
 
+## Requirements
+
+- [php](https://php.net): `^7.4|^8.1`
+- [predis/predis](https://packagist.org/packages/predis/predis): `^2.1`
+
 ## Configuration
 
 After installing the package, you'll need to publish the configuration file.
