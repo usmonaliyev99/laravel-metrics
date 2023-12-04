@@ -28,7 +28,10 @@ class LaravelMetricServiceProvider extends ServiceProvider
             Event::listen(QueryExecuted::class, QueryListener::class);
         }
 
-        $this->publishes([__DIR__ . '/../config/metric.php' => config_path('metric.php')], 'config');
+        if ($this->app->runningInConsole()) {
+
+            $this->publishes([__DIR__ . '/../config/metric.php' => config_path('metric.php')], 'config');
+        }
 
         Config::set('database.redis.metric', config('metric.redis.metric'));
     }
