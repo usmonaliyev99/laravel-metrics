@@ -1,7 +1,8 @@
 {
     "name": "usmonaliyev/laravel-metrics",
     "require": {
-        "php": "^7.4|^8.1"
+        "php": "^7.4|^8.1",
+        "predis/predis": "^2.1"
     },
     "license": "MIT",
     "autoload": {
