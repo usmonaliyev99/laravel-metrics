@@ -1,0 +1,25 @@
+{
+    "name": "usmonaliyev/laravel-metrics",
+    "require": {
+        "php": "^7.4|^8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Usmonaliyev\\LaravelMetrics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Usmonaliyev\\LaravelMetrics\\LaravelMetricServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Temur5319436",
+            "email": "temur5319436@gmail.com"
+        }
+    ]
+}
