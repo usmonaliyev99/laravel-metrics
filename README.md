@@ -40,3 +40,9 @@ If you discover any issues or want to contribute, feel free to create an issue o
 
 The Laravel Metrics package is open-sourced software licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
+## Communication
+
+[![Gmail account](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://gmail.com)
+[![Telegram account](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/t1nnur)
+
+
