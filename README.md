@@ -1,8 +1,8 @@
 # laravel-metrics
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/usmonaliyev/laravel-metrics.svg?style=flat-square)](https://packagist.org/packages/your-username/laravel-metrics)
-[![Build Status](https://img.shields.io/travis/usmonaliyev/laravel-metrics/master.svg?style=flat-square)](https://travis-ci.org/your-username/laravel-metrics)
-[![Total Downloads](https://img.shields.io/packagist/dt/usmonaliyev/laravel-metrics.svg?style=flat-square)](https://packagist.org/packages/your-username/laravel-metrics)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/usmonaliyev/laravel-metrics.svg)](https://packagist.org/packages/usmonaliyev/laravel-metrics)
+[![Total Downloads](https://img.shields.io/packagist/dt/usmonaliyev/laravel-metrics.svg)](https://packagist.org/packages/usmonaliyev/laravel-metrics)
+![Packagist License](https://img.shields.io/packagist/l/usmonaliyev/laravel-metrics)
 
 This composer package that provides a simple and efficient way to measure and analyze the execution time and speed of database queries in your Laravel application.
 
