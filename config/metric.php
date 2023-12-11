@@ -10,8 +10,8 @@ return [
      * The listener only works between this time
      */
     'listen' => [
-        'start' => '09:00',
-        'end' => '15:00',
+        'start' => '10:00',
+        'end' => '12:00',
     ],
 
     /**
