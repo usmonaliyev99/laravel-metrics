@@ -7,6 +7,14 @@ return [
     'enable' => env('METRIC_ENABLE', false),
 
     /**
+     * The listener only works between this time
+     */
+    'listen' => [
+        'start' => '09:00',
+        'end' => '15:00',
+    ],
+
+    /**
      * Redis connection name
      */
     'connection' => env('METRIC_CONNECTION', 'metric'),
@@ -47,6 +55,19 @@ return [
 
             'speed' => 'metrics:query-speeds',
         ]
-    ]
+    ],
 
+    /**
+     * Notification configurations
+     */
+    'notify' => [
+
+        'bot_token' => env('BOT_TOKEN'),
+
+        'chat_id' => env('CHAT_ID'),
+
+        'caption' => "#REPORT",
+
+        'cron' => env('NOTIFY_TIME', '0 3 * * *'),
+    ]
 ];

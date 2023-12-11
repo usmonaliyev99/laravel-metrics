@@ -23,6 +23,12 @@ class QueryListener
      */
     public function handle(QueryExecuted $query): void
     {
+        $now = date('H:i');
+
+        if (config('metric.listen.start') > $now || config('metric.listen.end') < $now) {
+            return;
+        }
+
         if (config('metric.control.query_counter')) {
 
             $this->registerCount($query);
